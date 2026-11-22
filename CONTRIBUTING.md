@@ -16,5 +16,8 @@ The guide is useful only while its links and facts are correct. Your help keeps 
 6. Run the check before you open a pull request:
    `python3 tools/check_composer.py neotopia-offline.md`
 
+## Conduct
+Read the [code of conduct](CODE_OF_CONDUCT.md). It applies in all project spaces.
+
 ## Languages
 The guide is in English so that agents and contributors across Europe can use it. Runbooks for households are written in their own languages at build time (section 31).
