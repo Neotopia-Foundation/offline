@@ -1,0 +1,6 @@
+.DS_Store
+._*
+*.part
+*.aria2
+__pycache__/
+lychee/

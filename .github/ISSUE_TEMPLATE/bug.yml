@@ -1,0 +1,16 @@
+name: Bug
+description: A mistake in the guide or in an embedded script.
+title: "[bug] <section>: <short description>"
+labels: [bug]
+body:
+  - type: input
+    id: section
+    attributes: {label: Section, placeholder: "12.1"}
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: What is wrong, description: What did you expect? What happened? Paste errors without personal data.}
+    validations: {required: true}
+  - type: input
+    id: system
+    attributes: {label: System and agent, placeholder: "macOS 14, Claude Code"}

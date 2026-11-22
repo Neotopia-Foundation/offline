@@ -1,0 +1,25 @@
+name: Source update
+description: A new or changed guide, a dead link, a better source.
+title: "[source] <country or topic>: <short description>"
+labels: [source]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of change
+      options: [Dead link, New official guide, New edition, Better source, Licence answer from a publisher, Other]
+    validations: {required: true}
+  - type: input
+    id: section
+    attributes: {label: Section in neotopia-offline.md, placeholder: "16.1"}
+  - type: input
+    id: url
+    attributes: {label: Official URL}
+    validations: {required: true}
+  - type: input
+    id: checked
+    attributes: {label: Date you checked and HTTP result, placeholder: "2026-12-01, 200, PDF"}
+    validations: {required: true}
+  - type: textarea
+    id: licence
+    attributes: {label: Licence or reuse statement, description: Quote it and give the page where it stands.}

@@ -1,0 +1,33 @@
+name: Build report
+description: Tell us how your offline drive build went.
+title: "[build] <country> <disk size> <agent>"
+labels: [build-report]
+body:
+  - type: input
+    id: country
+    attributes: {label: Country and regions, placeholder: "PL, BG"}
+    validations: {required: true}
+  - type: input
+    id: languages
+    attributes: {label: Languages, placeholder: "pl, en"}
+  - type: input
+    id: disk
+    attributes: {label: Disk size and file system, placeholder: "128 GB, exFAT"}
+    validations: {required: true}
+  - type: input
+    id: agent
+    attributes: {label: AI agent and model, placeholder: "Claude Code, Codex, Gemini CLI ..."}
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes: {label: Version of neotopia-offline.md, placeholder: "v0.1.0"}
+    validations: {required: true}
+  - type: input
+    id: result
+    attributes: {label: "Planned GB / real GB / failed items", placeholder: "110 / 114 / 5"}
+  - type: textarea
+    id: drill
+    attributes: {label: Offline drill (section 27.4), description: Which tasks passed and which failed?}
+  - type: textarea
+    id: problems
+    attributes: {label: Problems and fixes, description: Paste the lines from _log/failed.tsv. Remove personal data.}
