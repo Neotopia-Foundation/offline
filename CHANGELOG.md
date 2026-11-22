@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.0 (test release, date to be set)
+## v0.1.0 (test release, 2026-11-22)
 - First public version of `neotopia-offline.md`.
 - Scope: EU-27, EEA and EFTA, the United Kingdom, the Western Balkans, Ukraine, Moldova, Turkey and the South Caucasus.
 - Reference build: Poland and Bulgaria, November 2026.
