@@ -4,7 +4,7 @@
 
 ## Use a released version
 1. Use a link with a version number, not the `main` branch. Example:
-   `https://raw.githubusercontent.com/neotopia-foundation/offline/v0.1.0/neotopia-offline.md`
+   `https://raw.githubusercontent.com/neotopia-foundation/offline/v0.1.1/neotopia-offline.md`
 2. Each release lists the SHA-256 of the file. Check it before you give the file to your agent:
    - macOS and Linux: `shasum -a 256 neotopia-offline.md`
    - Windows PowerShell: `Get-FileHash neotopia-offline.md`
