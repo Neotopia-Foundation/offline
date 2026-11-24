@@ -62,6 +62,8 @@ Potem zbuduj dysk i pomóż mi sprawdzić go bez internetu.
 
 Agent zapyta o kraj, języki, urządzenia, wolne miejsce i limit danych. Agent w chmurze przesyła Twoje odpowiedzi do swojego dostawcy. Nie podawaj w tej rozmowie prywatnych danych medycznych.
 
+**Bez agenta?** Dla Polski jest gotowa lista plików i skrypt pobierania w [no-agent/](no-agent/README.pl.md). Dostajesz pliki, ale bez stron startowych i skryptów, które pisze agent.
+
 ## Jak to działa
 
 ```mermaid

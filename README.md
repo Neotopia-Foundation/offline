@@ -62,6 +62,8 @@ Then build the drive and help me test it offline.
 
 The agent asks about your country, languages, devices, free space and data cap. A hosted agent sends your answers to its provider. Keep private medical details out of that chat.
 
+**Without an agent?** For Poland there is a ready file list and a download script in [no-agent/](no-agent/README.md). You get the files, but not the start pages and launchers that the agent writes.
+
 ## How it works
 
 ```mermaid
