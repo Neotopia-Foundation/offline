@@ -37,13 +37,13 @@ Wersja testowa od Fundacji Neotopia.
 
 ```sh
 # macOS i Linux
-curl -LO https://github.com/neotopia-foundation/offline/releases/download/v0.1.0/neotopia-offline.md
+curl -LO https://github.com/neotopia-foundation/offline/releases/download/v0.1.1/neotopia-offline.md
 shasum -a 256 neotopia-offline.md
 ```
 
 ```powershell
 # Windows PowerShell
-curl.exe -LO https://github.com/neotopia-foundation/offline/releases/download/v0.1.0/neotopia-offline.md
+curl.exe -LO https://github.com/neotopia-foundation/offline/releases/download/v0.1.1/neotopia-offline.md
 Get-FileHash neotopia-offline.md
 ```
 
